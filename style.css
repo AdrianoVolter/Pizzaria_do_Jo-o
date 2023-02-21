@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-image: url(images/gettyimages-184946701-612x612.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+   
+}
+
+.box{
+    
+    display: flex;
+    width: 730px;
+    
+}
+.img-box{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px  0 0 20px;
+}
+.img-box img{
+    border-radius: 50px;
+    opacity: 70%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.img-box p {
+    font-weight: bold;
+    color: #3D3D3D;
+}
+.img-box h1{
+    font-size: 35px;
+    color: #e75959;
+
+    
+}
+
+
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+.form-box h2{
+    font-size:25px;
+    color:#e75959;
+}
+.form-box p{
+    font-weight: bold;
+    color: #3D3D3D;
+}
+.form-box p a{
+    color: red;
+    text-decoration: none;
+}
+.form-box form{
+    margin: 20px 0;
+}
+form .input-group{
+    margin-bottom: 15px;
+}
+form .input-group label{
+    color: #3D3D3D;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+form .input-group select{
+    width: 80%;
+    height: 57px;
+    background-color: rgba(255, 255, 255, 0.32);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #dd5050;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+form .input-group input:focus{
+    border-color: red;
+}
+form .input-group button{
+    width: 50%;
+    height: 47px;
+    background: red;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width:930px) {
+    .img-box{
+        display: none;
+        border-radius: 20px;
+    }
+    .box{
+        display: flex;
+        width: 100%;
+        
+    }
+    .form-box{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+}
