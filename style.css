@@ -19,13 +19,32 @@ body{
     min-height: 100vh;
    
 }
+ 
+.geren{
+    margin-left: 0;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    width: 10%;
+    height: 30px;
+    background: red;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   
+}
+
 
 .box{
-    
     display: flex;
     width: 730px;
     
+
 }
+
+
 .img-box{
     background-color: rgba(255, 255, 255, 0.5);
     width: 50%;
@@ -116,6 +135,8 @@ form .input-group button{
     cursor: pointer;
     font-size: 16px;
 }
+
+
 
 @media (max-width:930px) {
     .img-box{
